@@ -33,10 +33,10 @@
 /* */
 
 @import url(../blocks/cards/cards.css);
-@import url(../blocks/card/__imageCaption/card__imageCaption.css);
+@import url(../blocks/card/__imageCaption/card__imagecaption.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__caption/card__caption.css);
-@import url(../blocks/card/__captionLike/card__captionLike.css);
+@import url(../blocks/card/__captionLike/card__captionlike.css);
 @import url(../blocks/card/__like/card__like.css);
 @import url(../blocks/card/__blackLike/card__blackLike.css);
 
