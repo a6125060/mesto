@@ -1,5 +1,5 @@
 document.querySelector('.card__like').addEventListener('click', function() {
-    document.querySelector('.card__like').classList.toggle('card__blackLike')
+    document.querySelector('.card__like').classList.toggle('card__like_active_true')
 });
 
 
