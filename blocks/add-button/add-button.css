@@ -1,0 +1,14 @@
+.add-button {
+    display: flex;
+    outline: 1px solid white;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 39px 0 auto auto;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    opacity: .6;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+
+<body class="body">
+
+    <section class="popup">
+        <div class="popup__window">
+            <div class='popup__close'><img src="./images/closeIcon.svg" alt="Закрыть">
+            </div>
+            <h2 class="popup__title">Редактировать профиль</h2>
+
+            <p class="popup__name">Жак-Ив Кусто</p>
+            <div class="popup__border"></div>
+            <p class="popup__job">Исследователь океана</p>
+            <div class="popup__border"></div>
+            <button class="popup__save"><span class="popup__save-text">Сохранить</span></button>
+        </div>
+    </section>
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="./images/headerLogo.svg" alt="логотип Mesto">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <img class="avatar" src="./images/avatar.png" alt="Аватар">
+                <div class="profile-info">
+                    <h2 class="profile-info__title">Жак-Ив Кусто</h2>
+                    <p class="profile-info__subtitle">Исследователь океана</p>
+                </div>
+
+                <div class="edit-button">
+                    <img class="edit-button__image" src="./images/editicon.svg" alt="Редактировать">
+                </div>
+
+                <div class="add-button">
+                    <img class="add-button__image" src="./images/addicon.svg" alt="Добавить">
+                </div>
+            </section>
+            <section class="cards">
+                <figure class="card__image-caption">
+                    <img class="card__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
+                    <div class="card__caption-like">
+                        <figcaption class="card__caption">Карачаевск</figcaption>
+                        <div class="card__like"></div>
+                    </div>
+                </figure>
+                <figure class="card__image-caption">
+                    <img class="card__image" src="./images/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус">
+                    <div class="card__caption-like">
+                        <figcaption class="card__caption">Гора Эльбрус</figcaption>
+                        <div class="card__like"></div>
+                    </div>
+                </figure>
+                <figure class="card__image-caption">
+                    <img class="card__image" src="./images/kirill-pershin-1556355-unsplash.png" alt="Донбай">
+                    <div class="card__caption-like">
+                        <figcaption class="card__caption">Донбай</figcaption>
+                        <div class="card__like"></div>
+                    </div>
+                </figure>
+                <figure class="card__image-caption">
+                    <img class="card__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="Гора Эльбрус">
+                    <div class="card__caption-like">
+                        <figcaption class="card__caption">Гора Эльбрус</figcaption>
+                        <div class="card__like"></div>
+                    </div>
+                </figure>
+                <figure class="card__image-caption">
+                    <img class="card__image" src="./images/kirill-pershin-1404681-unsplash.png" alt="Донбай">
+                    <div class="card__caption-like">
+                        <figcaption class="card__caption">Донбай</figcaption>
+                        <div class="card__like"></div>
+                    </div>
+                </figure>
+                <figure class="card__image-caption">
+                    <img class="card__image" src="./images/kirill-pershin-1556355-unsplash.png" alt="Карачаево-Черкессия">
+                    <div class="card__caption-like">
+                        <figcaption class="card__caption">Карачаево-Черкессия</figcaption>
+                        <div class="card__like"></div>
+                    </div>
+                </figure>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy;2020 Mesto Russia</p>
+        </footer>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>

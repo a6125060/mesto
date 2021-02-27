@@ -1,24 +1,5 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 48px 44px 48px;
-}
-
-@media screen and (max-width: 1024px) {
-    .header {
-        margin: 0 48px 36px 48px;
-    }
-}
-
-@media screen and (max-width: 786px) {
-    .header {
-        margin: 0 24px 36px 24px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header {
-        margin: 16px 16px 36px 16px;
-    }
+    margin: 0 auto;
+    width: 880px;
+    border-bottom: 1px solid gray;
 }

@@ -1,34 +1,8 @@
 .cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    margin: 0 auto 92px auto;
-    width: 1184px;
-    justify-items: center;
-}
-
-@media screen and (max-width: 1200px) {
-    .cards {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 14px;
-        width: 928px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .cards {
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 auto 88px auto;
-        gap: 16px;
-        width: 720px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .cards {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 12px;
-        margin: 0 auto 64px auto;
-        width: 320px;
-    }
+    grid-template-columns: repeat(3, 282px);
+    grid-row-gap: 20px;
+    grid-column-gap: 17px;
+    margin: 0 auto 0 0;
+    width: 1280px;
 }

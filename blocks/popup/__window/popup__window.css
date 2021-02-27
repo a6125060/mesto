@@ -1,0 +1,6 @@
+.popup__window {
+    width: 430px;
+    height: 320px;
+    background: white;
+    border-radius: 10px;
+}

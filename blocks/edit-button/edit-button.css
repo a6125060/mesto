@@ -1,0 +1,14 @@
+.edit-button {
+    display: flex;
+    outline: 1px solid white;
+    height: 24px;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 41px auto auto 18px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    opacity: .6;
+}
