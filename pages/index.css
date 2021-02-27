@@ -33,12 +33,12 @@
 /* */
 
 @import url(../blocks/cards/cards.css);
-@import url(../blocks/card/__image-caption/card__image-caption.css);
+@import url(../blocks/card/__imageCaption/card__imageCaption.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__caption/card__caption.css);
-@import url(../blocks/card/__caption-like/card__caption-like.css);
+@import url(../blocks/card/__captionLike/card__captionLike.css);
 @import url(../blocks/card/__like/card__like.css);
-@import url(../blocks/card/__black-like/card__black-like.css);
+@import url(../blocks/card/__blackLike/card__blackLike.css);
 
 /* */
 
@@ -56,6 +56,6 @@
 @import url(../blocks/popup/__name/popup__name.css);
 @import url(../blocks/popup/__job/popup__job.css);
 @import url(../blocks/popup/__save/popup__save.css);
-@import url(../blocks/popup/__save-text/popup__save-text.css);
+@import url(../blocks/popup/__saveText/popup__saveText.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__border/popup__border.css);
