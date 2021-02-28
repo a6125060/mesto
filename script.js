@@ -1,9 +1,13 @@
 document.querySelector('.card__like').addEventListener('click', function() {
-    document.querySelector('.card__like').classList.toggle('card__like_active_true')
+    document.querySelector('.card__like').classList.toggle('card__black');
 });
 
 
 
+
+
+/*
+ 
 
 
 let popup = document.querySelector('.popup');
@@ -18,3 +22,14 @@ function togglePopup() {
 editButton.addEventListener('click', togglePopup);
 
 closeButton.addEventListener('click', togglePopup);
+
+
+
+
+
+
+document.querySelector('.card__like').addEventListener('click', function() {
+    document.querySelector('.card__like').classList.toggle('black')
+});
+
+*/
