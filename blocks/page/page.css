@@ -7,11 +7,17 @@
     min-width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 900px) {
     .page {
         width: 584px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .page {
+        width: 282px;
     }
 }
