@@ -41,11 +41,6 @@ closeButton2.addEventListener('click', togglePopup);
 
 /* 
 
-
-
-
-
-
 лайки 
 
 document.querySelector('.card__like').addEventListener('click', function() {
