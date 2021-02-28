@@ -3,9 +3,17 @@
     height: 50px;
     cursor: pointer;
     background-color: black;
-    margin: 48px auto auto 36px;
+    margin: 48px auto 37px auto;
 }
 
 .popup__save:hover {
     opacity: .6;
+}
+
+@media screen and (max-width: 620px) {
+    .popup__save {
+        width: 238px;
+        height: 46px;
+        margin: 45px auto 25px auto;
+    }
 }
