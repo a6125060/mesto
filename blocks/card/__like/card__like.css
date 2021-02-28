@@ -12,4 +12,5 @@
 
 .card__like:active {
     background: url('../../../images/blacklike.svg');
+    opacity: 1;
 }
