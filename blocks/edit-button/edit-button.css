@@ -16,15 +16,7 @@
 @media screen and (max-width: 620px) {
     .edit-button {
         position: absolute;
-        top: 250px;
-        left: 380px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .edit-button {
-        position: absolute;
-        top: 250px;
-        left: 230px;
+        bottom: 35px;
+        right: -40px;
     }
 }
