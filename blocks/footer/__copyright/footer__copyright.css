@@ -1,11 +1,10 @@
 .footer__copyright {
-    max-width: 318px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     color: #545454;
     text-align: left;
-    margin: 0;
+    margin-left: 0;
     padding: 0;
 }

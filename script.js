@@ -1,12 +1,5 @@
-/* редактирование профиля
+/* редактирование профиля popup */
 
-let popup = document.querySelector('.popup__name');
-let popup.value = 'Жак-Ив Кусто';
-
-let popup = document.querySelector('.popup__name');
-let popup.value = 'Жак-Ив Кусто';
-
-*/
 document.querySelector('.popup').addEventListener('submit', function(event) {
     event.preventDefault();
 });
@@ -37,29 +30,3 @@ editButton.addEventListener('click', togglePopup);
 closeButton.addEventListener('click', togglePopup);
 
 closeButton2.addEventListener('click', togglePopup);
-
-
-/* 
-
-лайки 
-
-document.querySelector('.card__like').addEventListener('click', function() {
-    document.querySelector('.card__like').classList.toggle('card__black');
-});
-
-
-
-
-
-
-архив
-
-
-
-
-
-document.querySelector('.card__like').addEventListener('click', function() {
-    document.querySelector('.card__like').classList.toggle('black')
-});
-
-*/
