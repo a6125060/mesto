@@ -3,3 +3,15 @@
     width: 880px;
     border-bottom: 1px solid gray;
 }
+
+@media screen and (max-width: 900px) {
+    .header {
+        width: 584px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .header {
+        width: 320px;
+    }
+}

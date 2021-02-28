@@ -5,3 +5,12 @@
     color: #FFFFFF;
     margin: 26px auto 16px 25px;
 }
+
+@media screen and (max-width: 900px) {
+    .profile-info__title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 33px;
+    }
+}

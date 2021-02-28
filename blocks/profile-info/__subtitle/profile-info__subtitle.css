@@ -6,3 +6,12 @@
     color: #FFFFFF;
     margin: 0 auto auto 25px;
 }
+
+@media screen and (max-width: 900px) {
+    .profile-info__subtitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

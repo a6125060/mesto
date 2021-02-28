@@ -6,3 +6,20 @@
     margin: 0 auto 0 0;
     width: 880px;
 }
+
+@media screen and (max-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(2, 282px);
+        width: 584px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 0 auto;
+        width: 300px;
+    }
+}

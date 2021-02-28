@@ -12,3 +12,9 @@
 .edit-button:hover {
     opacity: .6;
 }
+
+@media screen and (max-width: 620px) {
+    .edit-button {
+        margin: 39px auto 0 auto;
+    }
+}
