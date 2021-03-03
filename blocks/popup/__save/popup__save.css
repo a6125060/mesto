@@ -3,7 +3,7 @@
     height: 50px;
     cursor: pointer;
     background-color: black;
-    margin: 48px auto 37px auto;
+    margin: 18px auto 37px auto;
     outline: none;
     border: none;
     padding: 0;
@@ -23,6 +23,6 @@
     .popup__save {
         width: 238px;
         height: 46px;
-        margin: 45px auto 25px auto;
+        margin: 15px auto 25px auto;
     }
 }
