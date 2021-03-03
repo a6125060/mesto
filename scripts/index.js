@@ -26,12 +26,10 @@ function togglePopup() {
     popup.classList.toggle('popup_active_true')
 };
 
-/* обнуляем предустановки для event */
-function preventDefaultEvent(event) {
-    event.preventDefault();
-}
 
-function funInputProfile() {
+
+function funInputProfile(event) {
+    event.preventDefault();
     firstName.textContent = inputFirstName.value;
     job.textContent = inputJob.value;
 }
@@ -44,5 +42,4 @@ submitButton.addEventListener('click', togglePopup);
 
 
 /* редактирование профиля popup */
-formSubmit.addEventListener('submit', preventDefaultEvent);
 formSubmit.addEventListener('submit', funInputProfile);
