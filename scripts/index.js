@@ -37,8 +37,8 @@ function funInputProfile() {
 }
 
 /* открытие/закрытие popup */
-editButton.addEventListener('click', togglePopup);
 editButton.addEventListener('click', putName);
+editButton.addEventListener('click', togglePopup);
 closeButton.addEventListener('click', togglePopup);
 submitButton.addEventListener('click', togglePopup);
 
